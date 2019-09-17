@@ -22,7 +22,7 @@ module.exports = {
       {
         arrays: 'always-multiline',
         objects: 'always-multiline',
-        functions: 'never',
+        functions: 'always-multiline',
       },
     ],
     'arrow-parens': ['error', 'always'],

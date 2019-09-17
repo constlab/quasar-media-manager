@@ -1,0 +1,32 @@
+{
+  "prettier.printWidth": 100,
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "javascript.preferences.quoteStyle": "single",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "all",
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": false
+    },
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ]
+}
